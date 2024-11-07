@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testeapp"
+  description: "TesteApp"
+  annotations:
+    github.com/project-slug: andrevtg-demos/testeapp
+    backstage.io/techdocs-ref: dir:.
+    github.com/workflows: ci.yml
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/demo"
